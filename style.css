@@ -14,6 +14,7 @@ div#modalbox li {
 }
 div#modalbox li p{
 	font-size: 1.1em;
+	padding: 1% 0;
 }
 .map{
 	height: 75vh;
