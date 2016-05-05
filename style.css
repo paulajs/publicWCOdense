@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,300);
+*{
+	margin: 0;
+	padding: 0;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+}
+div#modalbox li {
+    list-style: none;
+    text-align: center;
+    padding: 4% 0;
+}
+div#modalbox li p{
+	font-size: 1.1em;
+}
+.map{
+	height: 75vh;
+	-webkit-filter: grayscale(30%);
+	filter: grayscale(30%);
+}
+header {
+    padding: 5% 0;
+}
+div#modalbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 5%;
+    width: 80vw;
+    z-index: 15;
+    border: 1px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    display: none;
+}
+div#modalbox:hover{
+	cursor: pointer;
+}
+div#cross {
+    font-size: 3em;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-weight: 100;
+}
