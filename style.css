@@ -14,7 +14,7 @@ div#modalbox li {
 }
 div#modalbox li p{
 	font-size: 1.1em;
-	padding: 1% 0;
+	padding: 2% 0;
 }
 .map{
 	height: 75vh;
@@ -26,7 +26,7 @@ header {
 }
 div#modalbox {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: white;

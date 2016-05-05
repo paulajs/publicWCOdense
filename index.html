@@ -19,6 +19,7 @@
 <div ng-controller="wcController as wcCtrl">
 <ng-map class="map" center="[55.3949007925, 10.3871548176]">
 	<marker 
+				icon="{path:'BACKWARD_OPEN_ARROW', scale: 7, strokeWeight: 3}"
 				ng-repeat="n in wcs" 
 				position="{{wcCtrl.getCoordinatesWC($index)}}"
 				title="{{wcCtrl.returnProperties($index).Navn}}"
